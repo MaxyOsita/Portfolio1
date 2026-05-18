@@ -3,404 +3,583 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Maxwell Osita Odo | Political Strategist & Systems Analyst</title>
+
   <meta name="description" content="Remote-ready portfolio of Maxwell Osita Odo — Political Strategist, Systems Analyst, Project Specialist, and Public Commentator." />
-  <meta name="keywords" content="Political Analyst, Governance Research, Project Management, EdTech, Systems Thinking, Remote Jobs, Public Commentary, Nigeria" />
+
+  <meta name="keywords" content="Political Analyst, Governance Research, Systems Thinking, Project Management, Public Affairs, EdTech, Policy Research, Remote Work" />
+
+  <meta name="author" content="Maxwell Osita Odo" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
     }
 
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #0f172a;
-      color: #e2e8f0;
-      line-height: 1.7;
+    html{
+      scroll-behavior:smooth;
     }
 
-    a {
-      text-decoration: none;
-      color: inherit;
+    body{
+      font-family:'Inter', sans-serif;
+      background:#0f172a;
+      color:#e2e8f0;
+      line-height:1.7;
     }
 
-    .container {
-      width: 90%;
-      max-width: 1150px;
-      margin: auto;
+    a{
+      text-decoration:none;
+      color:inherit;
     }
 
-    header {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      background: linear-gradient(to bottom right, #0f172a, #111827, #1e293b);
-      padding: 80px 0;
+    .container{
+      width:90%;
+      max-width:1150px;
+      margin:auto;
     }
 
-    .hero {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 50px;
-      align-items: center;
+    /* HEADER */
+
+    header{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      background:
+      linear-gradient(
+      135deg,
+      #020617,
+      #0f172a,
+      #1e293b
+      );
+      padding:80px 0;
     }
 
-    .hero-text h1 {
-      font-size: 3.5rem;
-      line-height: 1.1;
-      margin-bottom: 20px;
-      font-weight: 800;
+    .hero{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+      gap:50px;
+      align-items:center;
     }
 
-    .hero-text h2 {
-      font-size: 1.2rem;
-      color: #38bdf8;
-      margin-bottom: 25px;
-      font-weight: 500;
+    .hero-text h1{
+      font-size:4rem;
+      line-height:1.05;
+      margin-bottom:18px;
+      font-weight:800;
+      color:#f8fafc;
     }
 
-    .hero-text p {
-      font-size: 1.08rem;
-      color: #cbd5e1;
-      margin-bottom: 35px;
-      max-width: 700px;
+    .hero-text h2{
+      color:#38bdf8;
+      font-size:1.2rem;
+      margin-bottom:25px;
+      font-weight:500;
     }
 
-    .buttons {
-      display: flex;
-      gap: 15px;
-      flex-wrap: wrap;
+    .hero-text p{
+      color:#cbd5e1;
+      margin-bottom:35px;
+      font-size:1.08rem;
+      max-width:700px;
     }
 
-    .btn {
-      padding: 14px 24px;
-      border-radius: 10px;
-      font-weight: 600;
-      transition: 0.3s ease;
-      display: inline-block;
+    .buttons{
+      display:flex;
+      gap:15px;
+      flex-wrap:wrap;
     }
 
-    .primary {
-      background: #38bdf8;
-      color: #0f172a;
+    .btn{
+      padding:14px 24px;
+      border-radius:10px;
+      font-weight:600;
+      transition:0.3s ease;
+      display:inline-block;
     }
 
-    .primary:hover {
-      background: #7dd3fc;
-      transform: translateY(-2px);
+    .primary{
+      background:#38bdf8;
+      color:#0f172a;
     }
 
-    .secondary {
-      border: 1px solid #38bdf8;
-      color: #38bdf8;
+    .primary:hover{
+      background:#7dd3fc;
+      transform:translateY(-3px);
     }
 
-    .secondary:hover {
-      background: #38bdf8;
-      color: #0f172a;
+    .secondary{
+      border:1px solid #38bdf8;
+      color:#38bdf8;
     }
 
-    section {
-      padding: 90px 0;
+    .secondary:hover{
+      background:#38bdf8;
+      color:#0f172a;
     }
 
-    .section-title {
-      font-size: 2.3rem;
-      margin-bottom: 20px;
-      font-weight: 700;
-      color: #f8fafc;
+    /* SECTION */
+
+    section{
+      padding:90px 0;
     }
 
-    .section-subtitle {
-      color: #94a3b8;
-      margin-bottom: 50px;
-      max-width: 700px;
+    .section-title{
+      font-size:2.4rem;
+      margin-bottom:15px;
+      font-weight:800;
+      color:#f8fafc;
     }
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
+    .section-subtitle{
+      color:#94a3b8;
+      margin-bottom:50px;
+      max-width:700px;
     }
 
-    .card {
-      background: #1e293b;
-      padding: 30px;
-      border-radius: 18px;
-      transition: 0.3s ease;
-      border: 1px solid rgba(255,255,255,0.05);
+    /* GRID */
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+      gap:25px;
     }
 
-    .card:hover {
-      transform: translateY(-5px);
-      border-color: #38bdf8;
+    .card{
+      background:#1e293b;
+      padding:30px;
+      border-radius:18px;
+      border:1px solid rgba(255,255,255,0.05);
+      transition:0.3s ease;
     }
 
-    .card h3 {
-      margin-bottom: 15px;
-      color: #f8fafc;
-      font-size: 1.2rem;
+    .card:hover{
+      transform:translateY(-5px);
+      border-color:#38bdf8;
     }
 
-    .card p {
-      color: #cbd5e1;
-      font-size: 0.98rem;
+    .card h3{
+      margin-bottom:15px;
+      color:#f8fafc;
+      font-size:1.2rem;
     }
 
-    .experience-item {
-      margin-bottom: 40px;
-      padding-bottom: 30px;
-      border-bottom: 1px solid rgba(255,255,255,0.08);
+    .card p{
+      color:#cbd5e1;
+      font-size:0.98rem;
     }
 
-    .experience-item h3 {
-      font-size: 1.3rem;
-      margin-bottom: 8px;
+    /* EXPERIENCE */
+
+    .experience-item{
+      margin-bottom:45px;
+      padding-bottom:30px;
+      border-bottom:1px solid rgba(255,255,255,0.08);
     }
 
-    .experience-item span {
-      color: #38bdf8;
-      font-size: 0.95rem;
+    .experience-item h3{
+      font-size:1.35rem;
+      margin-bottom:8px;
+      color:#f8fafc;
     }
 
-    .quote {
-      background: #1e293b;
-      padding: 50px;
-      border-left: 5px solid #38bdf8;
-      border-radius: 15px;
-      font-size: 1.3rem;
-      font-weight: 500;
-      color: #f8fafc;
-      margin-top: 30px;
+    .experience-item span{
+      color:#38bdf8;
+      font-size:0.95rem;
+      display:block;
+      margin-bottom:12px;
     }
 
-    footer {
-      padding: 50px 0;
-      text-align: center;
-      background: #020617;
-      color: #94a3b8;
+    .experience-item p{
+      color:#cbd5e1;
     }
 
-    .contact-links {
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
+    /* QUOTE */
+
+    .quote{
+      background:#1e293b;
+      border-left:5px solid #38bdf8;
+      padding:45px;
+      border-radius:16px;
+      margin-top:40px;
+      font-size:1.2rem;
+      font-weight:500;
+      color:#f8fafc;
     }
 
-    .contact-links a {
-      color: #38bdf8;
-      font-weight: 600;
+    /* FOOTER */
+
+    footer{
+      padding:60px 0;
+      background:#020617;
+      text-align:center;
     }
 
-    @media(max-width:768px) {
-      .hero-text h1 {
-        font-size: 2.5rem;
+    footer h2{
+      margin-bottom:15px;
+      color:#f8fafc;
+    }
+
+    footer p{
+      color:#94a3b8;
+    }
+
+    .contact-links{
+      margin-top:25px;
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .contact-links a{
+      color:#38bdf8;
+      font-weight:600;
+    }
+
+    /* RESPONSIVE */
+
+    @media(max-width:768px){
+
+      .hero-text h1{
+        font-size:2.7rem;
       }
 
-      .section-title {
-        font-size: 1.9rem;
+      .section-title{
+        font-size:2rem;
       }
 
-      .quote {
-        padding: 30px;
-        font-size: 1.1rem;
+      .quote{
+        padding:30px;
+        font-size:1.05rem;
       }
+
     }
+
   </style>
+
 </head>
+
 <body>
 
-<header>
-  <div class="container hero">
-    <div class="hero-text">
-      <h1>Maxwell Osita Odo</h1>
-      <h2>Political Strategist • Systems Analyst • Project Specialist • Public Commentator</h2>
-      <p>
-        I recognise patterns across systems and translate complexity into actionable insight.
-        From politics and governance to education, media, and football strategy, I help organisations understand changing environments, uncover deeper patterns, and make informed decisions.
+  <!-- HERO -->
+
+  <header>
+
+    <div class="container hero">
+
+      <div class="hero-text">
+
+        <h1>Maxwell Osita Odo</h1>
+
+        <h2>
+          Political Strategist • Systems Analyst • Project Specialist • Public Commentator
+        </h2>
+
+        <p>
+          I recognise patterns across systems and translate complexity into actionable insight.
+          From politics and governance to education, media, and football strategy, I help organisations understand changing environments, uncover deeper patterns, and make informed decisions.
+        </p>
+
+        <div class="buttons">
+
+          <a href="mailto:maxysuspence@yahoo.com" class="btn primary">
+            Hire Me
+          </a>
+
+          <a href="https://www.linkedin.com/in/maxwell-osita-odo" target="_blank" class="btn secondary">
+            LinkedIn
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- WHAT I DO -->
+
+  <section>
+
+    <div class="container">
+
+      <h2 class="section-title">What I Do</h2>
+
+      <p class="section-subtitle">
+        I work across governance, education, communication, research, and systems analysis — helping organisations understand complexity, improve strategy, and communicate insight clearly.
       </p>
 
-      <div class="buttons">
-        <a href="mailto:maxysuspence@yahoo.com" class="btn primary">Hire Me</a>
-        <a href="https://www.linkedin.com/in/maxwell-osita-odo" target="_blank" class="btn secondary">LinkedIn Profile</a>
+      <div class="grid">
+
+        <div class="card">
+
+          <h3>Political & Governance Analysis</h3>
+
+          <p>
+            Election observation, political research, democratic accountability, governance analysis, public affairs commentary, and strategic insight focused on Nigeria and West Africa.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Project & Research Management</h3>
+
+          <p>
+            Coordinating research projects, workflow optimisation, data organisation, stakeholder communication, reporting systems, and remote collaboration.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Strategic Communication</h3>
+
+          <p>
+            Translating complex ideas into reports, educational content, policy communication, public commentary, and engaging analytical storytelling.
+          </p>
+
+        </div>
+
       </div>
+
     </div>
-  </div>
-</header>
 
-<section>
-  <div class="container">
-    <h2 class="section-title">What I Do</h2>
-    <p class="section-subtitle">
-      I work across governance, research, education, strategy, and communication — helping organisations interpret complexity, improve systems, and communicate insight clearly.
-    </p>
+  </section>
 
-    <div class="grid">
-      <div class="card">
-        <h3>Political & Governance Analysis</h3>
-        <p>
-          Election monitoring, political research, governance analysis, democratic accountability, public affairs commentary, and strategic insight focused on Nigeria and West Africa.
-        </p>
-      </div>
+  <!-- IMPACT -->
 
-      <div class="card">
-        <h3>Project & Research Management</h3>
-        <p>
-          Coordinating research projects, workflow optimisation, data organisation, stakeholder communication, and remote collaboration systems.
-        </p>
-      </div>
+  <section>
 
-      <div class="card">
-        <h3>Strategic Communication</h3>
-        <p>
-          Translating complex issues into reports, analysis, educational content, policy communication, and public-facing narratives people understand.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+    <div class="container">
 
-<section>
-  <div class="container">
-    <h2 class="section-title">Selected Impact</h2>
-    <p class="section-subtitle">
-      A snapshot of projects, initiatives, and analytical work across governance, education, and communication.
-    </p>
+      <h2 class="section-title">Selected Impact</h2>
 
-    <div class="grid">
-      <div class="card">
-        <h3>Election Observation</h3>
-        <p>
-          Served as an INEC-accredited election observer under YIAGA Africa in collaboration with Premium Times during the 2020 Edo State gubernatorial election.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Workflow Optimisation</h3>
-        <p>
-          Built a Google Forms and Sheets reporting workflow for election observers that reduced reporting time by approximately 60%.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Youth Civic Education</h3>
-        <p>
-          Led workshops on Nigerian federalism for over 200 youths during NYSC service in Anambra State.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Geopolitical Commentary</h3>
-        <p>
-          Provided analysis and commentary on West African politics, governance trends, and ECOWAS developments.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Football & Systems Thinking</h3>
-        <p>
-          Developed a “Football as Politics” analytical series exploring leadership, identity, strategy, and institutional power through football.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Research & Writing</h3>
-        <p>
-          Published analytical and commentary-driven content focused on governance, politics, education, strategy, and society.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container">
-    <h2 class="section-title">Experience</h2>
-
-    <div class="experience-item">
-      <h3>Freelance Writer & Analyst</h3>
-      <span>WordPress • January 2022 – Present</span>
-      <p>
-        Researching and producing long-form analytical content focused on governance, politics, public affairs, strategy, and social systems.
+      <p class="section-subtitle">
+        Research, governance, education, and communication initiatives demonstrating analytical thinking and strategic problem-solving.
       </p>
+
+      <div class="grid">
+
+        <div class="card">
+
+          <h3>Election Observation</h3>
+
+          <p>
+            Served as an INEC-accredited election observer under YIAGA Africa in collaboration with Premium Times during the 2020 Edo State gubernatorial election.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Workflow Optimisation</h3>
+
+          <p>
+            Built a Google Forms + Sheets reporting workflow for election observers that reduced reporting time by approximately 60%.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Civic Education</h3>
+
+          <p>
+            Led workshops on Nigerian federalism for over 200 youths during NYSC service in Anambra State.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Geopolitical Commentary</h3>
+
+          <p>
+            Provided analysis and commentary on West African politics, governance trends, and ECOWAS developments.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>TichaAfrica</h3>
+
+          <p>
+            Supporting AI and education research initiatives focused on empowering African teachers through strategic communication and policy advocacy.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Football & Systems Thinking</h3>
+
+          <p>
+            Developed analytical perspectives connecting football strategy, leadership, identity, and institutional power with governance systems.
+          </p>
+
+        </div>
+
+      </div>
+
     </div>
 
-    <div class="experience-item">
-      <h3>Project Specialist</h3>
-      <span>VIISAUS • February 2022 – June 2022</span>
+  </section>
+
+  <!-- EXPERIENCE -->
+
+  <section>
+
+    <div class="container">
+
+      <h2 class="section-title">Experience</h2>
+
+      <div class="experience-item">
+
+        <h3>Communications & Research Specialist (Volunteer)</h3>
+
+        <span>TichaAfrica • January 2026 – Present • Remote</span>
+
+        <p>
+          Supporting research and strategic communication initiatives focused on AI, education, and the future of African teachers. Contributing to policy discussions, educational content, advocacy messaging, and research-driven storytelling around AI adoption and digital skills development across Africa.
+        </p>
+
+      </div>
+
+      <div class="experience-item">
+
+        <h3>Freelance Writer & Analyst</h3>
+
+        <span>WordPress • January 2022 – Present</span>
+
+        <p>
+          Researching and producing long-form analytical content focused on governance, politics, strategy, public affairs, and social systems.
+        </p>
+
+      </div>
+
+      <div class="experience-item">
+
+        <h3>Project Specialist</h3>
+
+        <span>VIISAUS • February 2022 – June 2022</span>
+
+        <p>
+          Conducted data collation, analysis, interpretation, workflow support, and project coordination for organisational operations.
+        </p>
+
+      </div>
+
+      <div class="experience-item">
+
+        <h3>Education</h3>
+
+        <span>University of Benin</span>
+
+        <p>
+          Bachelor of Education (B.Ed.) in English Language & Literature.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- WHY HIRE ME -->
+
+  <section>
+
+    <div class="container">
+
+      <h2 class="section-title">Why Employers Hire Me</h2>
+
+      <div class="grid">
+
+        <div class="card">
+
+          <h3>Systems Thinking</h3>
+
+          <p>
+            I connect patterns across politics, governance, education, media, and culture to uncover deeper strategic insight.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Clear Communication</h3>
+
+          <p>
+            I simplify technical, political, and research-heavy information into communication people can understand and act upon.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Remote-Ready Professional</h3>
+
+          <p>
+            Strong independent work ethic, research discipline, adaptability, and effective digital collaboration skills across remote teams.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="quote">
+
+        “Every system leaves patterns. The ability to recognise them, explain them clearly, and act on them strategically is what creates insight.”
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="container">
+
+      <h2>Let’s Work Together</h2>
+
       <p>
-        Conducted data collation, analysis, interpretation, and project support for organisational operations and reporting.
+        Open to remote opportunities in political analysis, governance research, project management, strategic communication, EdTech, and policy research.
       </p>
-    </div>
 
-    <div class="experience-item">
-      <h3>Education</h3>
-      <span>University of Benin</span>
-      <p>
-        Bachelor of Education (B.Ed.) in English Language & Literature.
+      <div class="contact-links">
+
+        <a href="mailto:maxysuspence@yahoo.com">
+          Email
+        </a>
+
+        <a href="https://www.linkedin.com/in/maxwell-osita-odo" target="_blank">
+          LinkedIn
+        </a>
+
+      </div>
+
+      <p style="margin-top:30px; font-size:0.9rem;">
+        © 2026 Maxwell Osita Odo. All Rights Reserved.
       </p>
-    </div>
-  </div>
-</section>
 
-<section>
-  <div class="container">
-    <h2 class="section-title">Why Employers Hire Me</h2>
-
-    <div class="grid">
-      <div class="card">
-        <h3>Systems Thinking</h3>
-        <p>
-          I connect patterns across politics, education, media, and society to uncover deeper strategic insights.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Clear Communication</h3>
-        <p>
-          I transform technical, political, or research-heavy information into communication people can understand and act upon.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Remote-Ready Professional</h3>
-        <p>
-          Strong independent work ethic, research discipline, digital collaboration skills, and adaptability across remote teams.
-        </p>
-      </div>
     </div>
 
-    <div class="quote">
-      “Every system leaves patterns. The ability to recognise them, explain them clearly, and act on them strategically is what creates insight.”
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="container">
-    <h2>Let’s Work Together</h2>
-    <p>
-      Open to remote opportunities in political analysis, governance research, project management, strategic communication, policy research, and EdTech.
-    </p>
-
-    <div class="contact-links">
-      <a href="mailto:maxysuspence@yahoo.com">Email</a>
-      <a href="https://www.linkedin.com/in/maxwell-osita-odo" target="_blank">LinkedIn</a>
-    </div>
-
-    <p style="margin-top: 30px; font-size: 0.9rem;">
-      © 2026 Maxwell Osita Odo. All Rights Reserved.
-    </p>
-  </div>
-</footer>
+  </footer>
 
 </body>
 </html>
